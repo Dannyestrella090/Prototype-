@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,14 +13,14 @@
     </header>
 
     <main>
-        <img src="lebron.jpg" 
+        <img src="leBron_james_lakers.jpg" alt="LeBron James" class="main-image">
 
         <section class="bio">
             <h2>Career Highlights</h2>
             <ul>
                 <li>4× NBA Champion (2012, 2013, 2016, 2020)</li>
                 <li>4× NBA MVP (2009, 2010, 2012, 2013)</li>
-                <li>NBA All-Star (19× and counting)</li>
+                <li>19× NBA All-Star (and counting)</li>
                 <li>All-time leading scorer in NBA history</li>
                 <li>Drafted #1 overall in 2003 by the Cleveland Cavaliers</li>
             </ul>
@@ -35,6 +36,11 @@
         <p>Made by a proud fan. Go LeBron!</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        function showMessage() {
+            const message = "LeBron is a legend! His leadership, dedication, and greatness inspire fans all over the world.";
+            document.getElementById("fanMessage").innerText = message;
+        }
+    </script>
 </body>
 </html>
