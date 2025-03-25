@@ -1,14 +1,40 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LeBron James Lakers</title>
+    <title>LeBron James Fan Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>LeBron James - Los Angeles Lakers</h1>
-    <img src="LeBron_James_Lakers.jpg" alt="LeBron James in Lakers uniform" class="main-image">
-    <p>This is a simple webpage showcasing LeBron James in his Lakers uniform.</p>
+    <header>
+        <h1>LeBron James</h1>
+        <p>King of the Court</p>
+    </header>
+
+    <main>
+        <img src= "LeBron_James_Lakers.jpg" 
+
+        <section class="bio">
+            <h2>Career Highlights</h2>
+            <ul>
+                <li>4× NBA Champion (2012, 2013, 2016, 2020)</li>
+                <li>4× NBA MVP (2009, 2010, 2012, 2013)</li>
+                <li>NBA All-Star (19× and counting)</li>
+                <li>All-time leading scorer in NBA history</li>
+                <li>Drafted #1 overall in 2003 by the Cleveland Cavaliers</li>
+            </ul>
+        </section>
+
+        <section class="cta">
+            <button onclick="showMessage()">Why We Love LeBron</button>
+            <p id="fanMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made by a proud fan. Go LeBron!</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
